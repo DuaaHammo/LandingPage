@@ -7,8 +7,6 @@
 body {
     margin: auto;
     height: 100vh;
-
-
 }
 
 /* .navbar .container-fluid {
@@ -25,10 +23,8 @@ body {
 
 .nav-link {
     color: black;
-    flex-direction: row;
     font-size: 12px;
 }
-
 .sS {
     padding: 50% 50%;
 }
@@ -37,20 +33,12 @@ body {
 
 .text-center {
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato';
     font-size: 30px;
-    font-style: normal;
     font-style: italic;
-    padding: 40px 40px;
+    padding: 40px;
 }
 
-.textcenter {
-    color: #000;
-    font-family: 'lato';
-    font-size: 30px;
-    font-style: normal;
-    font-style: italic;
-}
 
 .see {
 
@@ -738,12 +726,8 @@ a {
     display: flex;
 }
 
-/* .navbar-nav .me-auto .mb-2 .mb-lg-0 {
-
-} */
-/* Extra small devices (phones, 600px and down) */
+/* Media Queries */
 @media only screen and (max-width: 600px) {
-
     .beau {
         font-size: large;
     }
@@ -755,45 +739,23 @@ a {
         height: auto;
     }
 
-    .layQu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50vh;
-
-        text-align: center;
-        /* padding-top: 20px;
-    padding-bottom: 20px; */
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .btn2 {
-        margin-bottom: 10rem;
-    }
-
-    .cop {
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-    }
-
-    .imglogo .content-imglogo {
-        margin: auto;
-        width: auto;
-        height: 100%;
-    }
+    /* Other styles for small screens */
+    /* ... */
 }
 
+/* Larger Media Queries */
+@media only screen and (min-width: 600px) {
+    /* Styles for medium devices */
+}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 768px) {
+    /* Styles for large devices */
+}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 992px) {
+    /* Styles for extra-large devices */
+}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    /* Styles for larger screens */
+}

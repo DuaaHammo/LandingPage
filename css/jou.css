@@ -826,32 +826,21 @@ a {
     .date .alignunder {
         margin-bottom: 50px;
     }
-
     .bc {
         display: none;
     }
-
-    .tree {
+    .tree  {
         margin-bottom: -10px;
         /* margin-bottom: 50px; */
     }
-
     .title .container {
-        padding-bottom: 20px;
-    }
-
-    .bc {
-        padding-bottom: 10px;
-    }
-
-    .textbu {
-        padding-bottom: 10px; 
-    }
-    .title .container{
-        display: none;
+padding-bottom: ;
     }
 }
 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
