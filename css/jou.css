@@ -2,9 +2,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
     background-color: transparent !important;
     box-shadow: 0 1px 1px 0 rgba(126, 126, 126, 0.19), 0 1px 2px 0 rgba(126, 126, 126, 0.19);
+}
+
+.aatee {
+    display: flex;
     flex-direction: column;
 }
 
@@ -13,17 +17,50 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
     height: 100vh;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.title .container {
+    align-items: flex-end;
+
 }
 
 .d-flex {
+    display: flex;
+
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+/* .nav-link {
+    color: black;
+    font-size: 12px;
+} */
+
+.navbar-expand .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    align-items: stretch;
+}
+.d-flex {
+    display: flex;
     align-items: center;
-    gap: 10px;
+}
+.navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.alignNav {
+    display: flex;
+
 }
 
 .nav-link {
     color: black;
-    flex-direction: row;
     font-size: 12px;
 }
 
@@ -32,15 +69,43 @@ body {
     display: inline;
 }
 
+.Search {
+    width: 20%;
+    height: 100%;
+}
+
 .alignunder {
     display: flex;
     padding: 3px 0px;
     align-items: baseline;
     /* align-items: center; */
     gap: 10px;
-    justify-content: center;
+    /* justify-content: center; */
     flex-shrink: 0;
     margin-top: -37px;
+    justify-content: flex-end;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 5rem;
+    /* padding-bottom: 5rem; */
+}
+
+
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+
 }
 
 .back {
@@ -67,7 +132,7 @@ body {
     gap: 10px;
     border: 1px solid #000;
     color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
     letter-spacing: 0.05px;
     text-decoration: none;
@@ -76,18 +141,12 @@ body {
 /* title */
 
 .title {
-    align-items: center;
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
-    font-style: normal;
-    padding-bottom: 50px;
-    padding-top: 50px;
     font-style: italic;
     align-items: center;
-
 }
-
 
 .so {
     display: flex;
@@ -102,7 +161,6 @@ body {
 }
 
 .icon2 {
-
     height: 20px;
     display: flex;
     flex-direction: row;
@@ -119,7 +177,7 @@ body {
 }
 
 .qu {
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-style: italic;
     font-size: 15px;
 }
@@ -133,7 +191,7 @@ body {
 
 /* New collection */
 .new-collection {
-    display: flex;
+    /* display: flex; */
     align-items: baseline;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -142,7 +200,7 @@ body {
 .new-collection2 {
     display: flex;
     align-items: baseline;
-    flex-direction:column;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
@@ -171,35 +229,42 @@ body {
 
 .fuas {
     color: #6A6161;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     padding-top: 10px;
 }
 
 .A {
     display: flex;
+    align-items: left;
     align-items: center;
 }
 
 .al {
     color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 88px;
 }
 
 .paragraph,
 .longText {
     color: #6A6161;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    /* margin: 4px; */
+
+}
+
+.lead {
     font-size: 14px;
-    margin: 4px;
+    color: #6A6161;
 }
 
 /* Article quotes */
 .quCe {
     color: #000;
     text-align: center;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-style: italic;
     gap: 20px;
@@ -208,7 +273,7 @@ body {
 /* Shapes */
 .shapes {
     color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 38px;
     font-style: normal;
 }
@@ -216,7 +281,7 @@ body {
 /* Downte */
 .downte {
     color: #6A6161;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
 }
 
@@ -276,7 +341,7 @@ body {
 
 .text-center {
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-style: normal;
     padding-bottom: 50px;
@@ -286,7 +351,7 @@ body {
 
 .textcenter {
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-style: normal;
     /* padding-bottom: 50px;
@@ -298,7 +363,7 @@ body {
 
     color: #000;
     text-align: center;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 19px;
     font-style: italic;
 }
@@ -346,10 +411,9 @@ body {
 /* card Title */
 .card-title {
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
     line-height: 120%;
 
 }
@@ -357,19 +421,12 @@ body {
 /* card paragraph */
 .card-text {
     color: #606060;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-style: normal;
 }
 
-/* 
-.alignunder {
-    display: flex;
-    padding: 3px 0px;
-    align-items: center;
-    gap: 10px;
-    align-items: baseline;
-} */
+
 
 .lay {
     display: flex;
@@ -377,7 +434,7 @@ body {
     align-items: center;
     gap: 20px;
     color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     text-decoration: none;
 }
@@ -390,7 +447,7 @@ body {
     gap: 10px;
     border: 1px solid #000;
     color: #000;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
     letter-spacing: 0.05px;
     text-decoration: none;
@@ -434,7 +491,7 @@ footer {
 .Copyright {
     color: #000;
     text-align: center;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
 }
 
@@ -476,7 +533,7 @@ footer {
     height: 24px;
     flex-shrink: 0;
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -492,7 +549,7 @@ footer {
     flex-shrink: 0;
     /* other */
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -523,13 +580,13 @@ footer {
 .text-uppercase {
     color: #000;
     text-align: center;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
 }
 
 .list-unstyled.mb-0 {
     color: #757575;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     text-decoration: none;
 }
@@ -543,7 +600,7 @@ footer {
 .MENS {
     color: #6A6161;
     text-align: left;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
 
 
@@ -551,13 +608,11 @@ footer {
 
 .row {
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
-
-    justify-content: space-between;
-    margin: auto;
-    padding: 50px 50px;
+    display: flex;
     text-align: left;
+
 }
 
 .WOMENS,
@@ -567,7 +622,7 @@ footer {
 .BROOKLYN-STORE .list-unstyled .mb-0 {
     color: #6A6161;
     text-align: left;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
 
 
@@ -575,7 +630,7 @@ footer {
 
 .fin {
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     align-items: center;
     display: flex;
@@ -704,7 +759,7 @@ a {
 
 .smile {
     color: #000;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
     font-style: normal;
     text-transform: uppercase;
@@ -712,7 +767,7 @@ a {
 
 .pp {
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
 
 
@@ -725,7 +780,7 @@ a {
     flex-shrink: 0;
     /* other */
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -757,13 +812,13 @@ a {
 .text-uppercase {
     color: #000;
     text-align: left;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
 }
 
 .list-unstyled.mb-0 {
     color: #757575;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     text-decoration: none;
 }
@@ -777,7 +832,7 @@ a {
 
 /* .row {
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 13px;
     align-items: center;
     justify-content: space-between;
@@ -789,7 +844,7 @@ a {
 
 .fin {
     color: #6A6161;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     font-size: 11px;
     display: flex;
     margin: auto;
@@ -812,25 +867,66 @@ a {
     gap: 20px;
 }
 
+.Related {
+    text-align: left;
+}
+
+.imgSect {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    /* padding-left: 45rem; */
+}
+
+.NewLeft {
+    text-align: left;
+}
+
+.imgSee {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
+
+.texX,
+.imgSect div {
+    text-align: center;
+}
+
+.texX {
+    margin-top: 10px;
+}
+
+/*  */
+
+
+/* 
+.hijab img {
+    max-width: 100%;
+    height: auto;
+} */
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .hijab {
-        margin-top: -10px;
+
+    .hijaPic {
+        width: 50%;
+        height: auto;
     }
 
-
-    .back {
-        padding-left: 10px;
+    .longText {
+        width: 50%;
     }
 
-    .content {
-        margin-top: -10px;
+    .paragraph {
+        width: 50%;
     }
 
-    .date .alignunder {
-        margin-bottom: 50px;
+    .fuas {
+        width: 50%;
     }
 
     .bc {
@@ -851,14 +947,16 @@ a {
     }
 
     .textbu {
-        padding-bottom: 10px; 
+        display: flex;
     }
-    .title .container{
+
+    .title .container {
         display: none;
     }
+
     .Smo {
 
-        display:block;
+        display: block;
         justify-content: space-evenly;
         align-items: center
     }
@@ -871,18 +969,226 @@ a {
     }
 
     .card {
-    flex: 0 0 auto;
+        flex: 1 1 auto;
+    }
+
+    /* .imgSect {
+        padding-bottom: 10rem;
+    } */
+
+    body {
+        font-size: 14px;
+    }
+
+    /* 
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    /* .navbar-brand {
+        margin-bottom: 10px;
+    } */
+
+    /* .nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    } */
+
+    .new-collection {
+        padding: 20px;
+    }
+
+    .sec3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comment {
+        margin-top: 20px;
+    }
+
+    /* .imgSect {
+        padding: 10px;
+    } */
+
+    .imgSee {
+        max-width: 100%;
+    }
+
+    .new-collection2 {
+        padding: 10px;
+    }
+
+    .hijab.container {
+        padding: 0 10px;
+    }
+
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* .navbar-brand {
+        margin-right: auto;
+    } */
+    /* 
+    .navbar-toggler {
+        margin-left: auto;
+    } */
+    /* 
+    .navbar-nav {
+        flex-direction: column;
+    } */
+
+    .search-icon,
+    .line-icon,
+    .login-link,
+    .cart-icon {
+        margin: 10px 0;
+    }
+
+    .so {
+        display: none;
+    }
+
+    .Baa {
+        display: flexbox;
+    }
+
+    .hijaPic {
+        padding-top: 10px;
+    }
+
+    .title {
+        padding-bottom: 10px;
+    }
 }
 
-    
+.Baa {
+    display: none;
 }
+
+.text-center .wo {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    margin-top: -50%;
+}
+
+#logo {
+    margin-left: 13rem;
+    /* display: flex;
+  align-items: center; */
+
+}
+
+.na {
+    margin-left: -41rem;
+}
+
+/* .Ws{
+    margin-top: 1%;
+  } */
+.para {
+    text-align: center;
+}
+
+.scro {
+    /* flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -27rem;
+    margin-top: -10rem;
+    */
+    display: none;
+}
+
+.picL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* .nav {
+    display: flex;
+} */
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+
+    .card-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 11px 33px;
+    }
+
+    .card {
+        flex: 1 1 auto;
+    }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        border: 0px;
+    }
+
+    .card-layout {
+        align-items: flex-start;
+        gap: 20px;
+        border: 0;
+        display: flex;
+        flex-direction: row;
+        border: 0;
+        flex-wrap: nowrap;
+        padding: 11px 33px;
+    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        border: 0px;
+    }
+
+    .card-layout {
+        align-items: flex-start;
+        gap: 20px;
+        border: 0;
+        display: flex;
+        flex-direction: row;
+        border: 0;
+        flex-wrap: nowrap;
+        padding: 11px 33px;
+    }
+
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 77.333333%;
+}
+
+.container.text-center {
+    display: flex;
+}

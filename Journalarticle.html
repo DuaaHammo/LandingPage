@@ -3,336 +3,591 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="DXH">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/jou.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+
     <title>Journal article </title>
+    <meta class="description" content="A brief description">
+    <meta name="author" content="DuaaHammo">
 </head>
 
-<body>
+<body class="vh-100">
 
-    <nav class="navbar bg-light">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="index.html">
-                <img src="/assets/Vespi.png" alt="Bootstrap" width="60" height="30">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light position-absolute w-100 ">
+        <div class="container-fluid">
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" width="24" height="24">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="/assets/Search.png" class="d-flex d-lg-none"><img src="/assets/Search.png" alt="Search"></a>
+            <a class="navbar-brand logO mx-auto" href="index.html">
+                <img id="logo" src="/assets/Vespi.png" alt="img" width="60" height="30">
             </a>
-            <ul class="nav">
-                <li class="nav-item"><a class="nav-link" href="index.html">Mens</a></li>
-                <li class="nav-item"><a class="nav-link" href="HomePage.html">Womens</a></li>
-                <li class="nav-item"><a class="nav-link" href="Journalarticle.html">Journal</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html">About Us</a></li>
-            </ul>
+            <a href="/assets/Cart White.png" class="d-flex d-lg-none"><img src="/assets/Cart White.png" alt="Cart"></a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="HomePage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Mens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Womens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Journalarticle.html">Journal</a>
+                    </li>
+                </ul>
 
-            <div class="d-flex">
-                <a href="/assets/Search.png"><img src="/assets/Search.png" alt="Search"></a>
-                <a href="/assets/Line.png"><img src="/assets/Line.png" alt="Line"></a>
-                <a class="nav-link" href="index.html">Log In</a>
-                <a href="/assets/Cart White.png"><img src="/assets/Cart White.png" alt="Cart"></a>
+                <div class="iC">
+                    <div class="d-flex">
+                        <a href="/assets/Search.png" class="d-none d-lg-flex"><img src="/assets/Search.png"
+                                alt="Search"></a>
+                        <a href="/assets/Line.png"><img src="/assets/Line.png" alt="Line"></a>
+                        <a class="nav-link" href="index.html">Log In</a>
+                        <a href="/assets/Cart White.png" class="d-none d-lg-flex"><img src="/assets/Cart White.png"
+                                alt="Cart"></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light position-absolute w-100">
+            <div class="container-fluid">
+
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="/assets/Search.png" class="d-flex d-lg-none"><img src="/assets/Search.png" alt="Search"></a>
+                <a class="navbar-brand logO mx-auto" href="index.html">
+                    <img id="logo" src="/assets/Vespi.png" alt="img" width="60" height="30">
+                </a>
+                <a href="/assets/Cart White.png" class="d-flex d-lg-none"><img src="/assets/Cart White.png"
+                        alt="Cart"></a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="HomePage.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Mens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Womens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Journalarticle.html">Journal</a>
+                        </li>
+                    </ul>
+
+                    <div class="iC">
+                        <div class="d-flex">
+                            <a href="/assets/Search.png" class="d-none d-lg-flex"><img src="/assets/Search.png"
+                                    alt="Search"></a>
+                            <a href="/assets/Line.png"><img src="/assets/Line.png" alt="Line"></a>
+                            <a class="nav-link" href="index.html">Log In</a>
+                            <a href="/assets/Cart White.png" class="d-none d-lg-flex"><img src="/assets/Cart White.png"
+                                    alt="Cart"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
 
 
 
     <!-- start point -->
-
     <!-- ARROW -->
-    <div class="section1">
-        <div class="back">
+    <main>
+        <div class="container w-100">
 
-            <img src="assets/arrow.png" alt="arrowphoto" class="arroww">
-            <p class="bc">BACK TO JOUNRAL</p>
-
-        </div>
-
-        <!--  TRENDS -->
-        <div class="textbu">
-            <div class="date">
-                <p>March, 2024</p>
-            </div>
-        </div>
-        <div class="tree">
-            <div class="alignunder">
-
-                <p class="lay">Posted under</p>
-                <a href="index.html" class="trends">TRENDS</a>
-
-            </div>
-        </div>
-    </div>
-
-    <section class="new-collection">
-
-        <!-- social -->
-        <div class="so">
-            <div class="socialMedia">
-                <!-- text -->
-                <p>Dig this article?<br>
-                    SHARE THE LOVE</p>
-            </div>
-            <!-- icon -->
-            <div class="icon">
-                <img src="assets/facebook-svgrepo-com.svg" alt="fa fa-facebook" class="icon">
-                <img src="assets/pinterest-svgrepo-com.svg" alt="fa fa-pinterest" class="icon">
-                <img src="assets/twitter-svgrepo-com.svg" alt="fa fa-instagram" class="icon">
-                <!-- <img src="assets/email-circle-svgrepo-com.svg" alt="fa fa-google" class="icon"> -->
-            </div>
-
-        </div>
-
-        <!-- New collection -->
-        <div class="new-collection2">
-            <div class="title container">
-                <h2>New collection launches <br> — a collaboration between <br> two great designers</h2>
-                <blockquote cite="http://www.worldwildlife.org/who/index.html" class="qu">
-                    Written by Claire Khan.</blockquote>
-            </div>
-            <section class="content">
-                <div class="con">
-                    <div class="hijab container mt-3">
-        
-                        <img src="assets/hijab.png" alt="hijab">
-        
-        
-        
-        
-                        <p class="fuas">Fuas molestias excepturi sint occaecati cupiditate non provident</p>
-                        <div class="A">
-                            <p class="al">A</p>
-                            <p class="paragraph">Across fashion, we see different shapes appear across eras. At vero eos et
-                                accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-                                corrupti</p>
+            <div class="row">
+                <div class="part1 w-100">
+                    <div class=" justify-content-start aatee">
+                        <div class="col-4 col-auto">
+                            <div class="section1">
+                                <div class="back ">
+                                    <img src="assets/arrow.png" alt="arrowphoto" class="arroww">
+                                    <p class="bc">BACK TO JOURNAL</p>
+                                    <p class="Baa d-flex d-lg-none">BACK</p>
+                                </div>
+                                <!-- <div class="back">
+                        <p class="Baa d-none d-lg-flex">BACK</p>
+                        </div> -->
+                            </div>
                         </div>
-                        <div class="longText">
-                            <p>Fuas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                                officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
-                                est
-                                et expedita distinctio.
-                                <br><br>
-                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-                                maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-                                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-                                voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                                sapiente
-                                delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus
-                                asperiores repellat.
-                                <br><br>
-                                Fuas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                                officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
-                                est
-                                et expedita distinctio.
-                                <br><br>
-                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-                                maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-                                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-                                voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                                sapiente
-                                delectus, ut aut reiciendis voluptatibus maiores alias c equatur aut perferendis doloribus
-                                asperiores repellat.
-                                <br><br>
-                                Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
-                                maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-                                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-                                voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                                sapiente
-                                delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus
-                                asperiores repellat.
-                                <br><br>
-                            </p>
-                            <blockquote cite="http://www.worldwildlife.org/who/index.html" class="quCe">
-                                “Apart from materials, fit is everything when it comes to well-made clothing.”
-                            </blockquote>
-                            <h5 class="shapes">Shapes change with the times</h5>
-                            <p class="downte">Fuas molestias excepturi sint occaecati cupiditate non provident, similique sunt
-                                in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem
-                                rerum
-                                facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio
-                                cumque
-                                nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-                                omnis
-                                dolor repellendus.
-                                <br><br>
-                                Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-                                voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a
-                                sapiente
-                                delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus
-                                asperiores repellat. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                                impedit
-                                quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor
-                                repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.
-                                <br><br>
-                                <hr>
-                            </p>
+                    </div>
+
+
+                    <!--  Date -->
+
+                    <div class=" justify-content-center aatee">
+                        <div class="col-4">
+                            <div class="textbu">
+                                <div class="date">
+                                    <p>March, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--  TRENDS -->
+                    <div class=" justify-content-end aatee">
+                        <div class="col-4">
+                            <div class="tree">
+                                <div class="alignunder">
+                                    <p class="lay">Posted under</p>
+                                    <a href="index.html" class="trends">TRENDS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="contaner w-100">
+
+            <div class="row my-5">
+                <!-- Social -->
+                <div class="part2 justify-content-center">
+                    <div class="col-6 col-lg-3">
+
+                        <div class="so">
+                            <div class="socialMedia">
+                                <p>Dig this article?<br>SHARE THE LOVE</p>
+                            </div>
+                            <div class="icon">
+                                <img src="assets/facebook-svgrepo-com.svg" alt="fa fa-facebook" class="icon">
+                                <img src="assets/pinterest-svgrepo-com.svg" alt="fa fa-pinterest" class="icon">
+                                <img src="assets/twitter-svgrepo-com.svg" alt="fa fa-instagram" class="icon">
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="row container">
+                        <div class="d-flex justify-content-around bd-highlight mb-2 col-lg-4 container w-100">
+
+
+
+                            <!-- New collection -->
+                            <div class="new-collection2 bd-highlight">
+                                <div class="title col-md-8">
+                                    <h2 class="display-5 h2">New collection launches <br> — a collaboration <br> between
+                                        two
+                                        <br> great designers
+                                    </h2>
+                                    <blockquote cite="http://www.worldwildlife.org/who/index.html"
+                                        class="qu blockquote">
+                                        Written by Claire Khan.</blockquote>
+                                </div>
+
+
+
+                                <!-- img -->
+                                <section class="content">
+                                    <div class="col-md-6 con bd-highlight">
+                                        <div class="hijab  justify-content-center ">
+
+                                            <img src="assets/hijab.png" alt="hijab" class="hijaPic img-fluid">
+                                            <p class="lead">Fuas molestias excepturi sint occaecati cupiditate non
+                                                provident
+                                            </p>
+                                            <div class="A">
+                                                <p class="al">A</p>
+                                                <p class="lead">Across fashion, we see different shapes appear across
+                                                    eras. At
+                                                    vero
+                                                    eos
+                                                    et
+                                                    accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                                    praesentium
+                                                    voluptatum
+                                                    deleniti atque
+                                                    corrupti</p>
+                                            </div>
+                                            <div class="longText">
+                                                <p class="lead">Fuas molestias excepturi sint occaecati cupiditate non
+                                                    provident,
+                                                    similique sunt
+                                                    in
+                                                    culpa
+                                                    qui
+                                                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et
+                                                    harum quidem
+                                                    rerum
+                                                    facilis
+                                                    est
+                                                    et expedita distinctio.
+                                                    <br><br>
+                                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                                    impedit quo
+                                                    minus
+                                                    id quod
+                                                    maxime placeat facere possimus, omnis voluptas assumenda est, omnis
+                                                    dolor
+                                                    repellendus.
+                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                    necessitatibus
+                                                    saepe
+                                                    eveniet ut et
+                                                    voluptates repudiandae sint et molestiae non recusandae. Itaque
+                                                    earum
+                                                    rerum hic
+                                                    tenetur
+                                                    a
+                                                    sapiente
+                                                    delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+                                                    aut
+                                                    perferendis
+                                                    doloribus
+                                                    asperiores repellat.
+                                                    <br><br>
+                                                    Fuas molestias excepturi sint occaecati cupiditate non provident,
+                                                    similique sunt
+                                                    in
+                                                    culpa qui
+                                                    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et
+                                                    harum quidem
+                                                    rerum
+                                                    facilis
+                                                    est
+                                                    et expedita distinctio.
+                                                    <br><br>
+                                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                                    impedit quo
+                                                    minus
+                                                    id quod
+                                                    maxime placeat facere possimus, omnis voluptas assumenda est, omnis
+                                                    dolor
+                                                    repellendus.
+                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                    necessitatibus
+                                                    saepe
+                                                    eveniet ut et
+                                                    voluptates repudiandae sint et molestiae non recusandae. Itaque
+                                                    earum
+                                                    rerum hic
+                                                    tenetur
+                                                    a
+                                                    sapiente
+                                                    delectus, ut aut reiciendis voluptatibus maiores alias c equatur aut
+                                                    perferendis
+                                                    doloribus
+                                                    asperiores repellat.
+                                                    <br><br>
+                                                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+                                                    impedit quo
+                                                    minus
+                                                    id quod
+                                                    maxime placeat facere possimus, omnis voluptas assumenda est, omnis
+                                                    dolor
+                                                    repellendus.
+                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                    necessitatibus
+                                                    saepe
+                                                    eveniet ut et
+                                                    voluptates repudiandae sint et molestiae non recusandae. Itaque
+                                                    earum
+                                                    rerum hic
+                                                    tenetur
+                                                    a
+                                                    sapiente
+                                                    delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+                                                    aut
+                                                    perferendis
+                                                    doloribus
+                                                    asperiores repellat.
+                                                    <br><br>
+                                                </p>
+
+                                                <!-- Quote -->
+                                                <blockquote cite="http://www.worldwildlife.org/who/index.html"
+                                                    class="quCe blockquote">
+                                                    “Apart from materials, fit is everything when it comes to well-made
+                                                    clothing.”
+                                                </blockquote>
+
+
+                                                <h5 class="shapes h5">Shapes change with the times</h5>
+                                                <p class="downte lead">Fuas molestias excepturi sint occaecati
+                                                    cupiditate
+                                                    non
+                                                    provident,
+                                                    similique sunt
+                                                    in culpa qui officia deserunt mollitia animi, id est laborum et
+                                                    dolorum
+                                                    fuga. Et
+                                                    harum
+                                                    quidem
+                                                    rerum
+                                                    facilis est et expedita distinctio. Nam libero tempore, cum soluta
+                                                    nobis
+                                                    est
+                                                    eligendi
+                                                    optio
+                                                    cumque
+                                                    nihil impedit quo minus id quod maxime placeat facere possimus,
+                                                    omnis
+                                                    voluptas
+                                                    assumenda
+                                                    est,
+                                                    omnis
+                                                    dolor repellendus.
+                                                    <br><br>
+                                                    Temporibus autem quibusdam et aut officiis debitis aut rerum
+                                                    necessitatibus
+                                                    saepe
+                                                    eveniet ut et
+                                                    voluptates repudiandae sint et molestiae non recusandae. Itaque
+                                                    earum
+                                                    rerum hic
+                                                    tenetur
+                                                    a
+                                                    sapiente
+                                                    delectus, ut aut reiciendis voluptatibus maiores alias consequatur
+                                                    aut
+                                                    perferendis
+                                                    doloribus
+                                                    asperiores repellat. Nam libero tempore, cum soluta nobis est
+                                                    eligendi
+                                                    optio
+                                                    cumque
+                                                    nihil
+                                                    impedit
+                                                    quo minus id quod maxime placeat facere possimus, omnis voluptas
+                                                    assumenda est,
+                                                    omnis
+                                                    dolor
+                                                    repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+                                                    rerum
+                                                    necessitatibus.
+                                                    <br><br>
+                                                    <hr>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- ImgSee -->
+
+                    <div class="row justify-content-center  float-end bd-highlight">
+                        <div class="col-md-4">
+                            <div class="imgSect">
+                                <h6 class="Related">Related ARTICLES</h6>
+                                <img src="assets/seee.png" alt="imgSee" class="img-fluid">
+                                <div class="texX">
+                                    <p>SEBASTIAN</p> <img src="assets/X.svg" alt="X">
+                                    <p>TAKAGAWA</p>
+                                </div>
+                                <div>
+                                    <h5 class="NewLeft">New collection launches — a <br>collaboration between
+                                        two
+                                        <br>great
+                                        designers
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section class="section3">
+                    <div class="sec3">
+                        <div class="smailCard">
+
+                            <div class="le">
+                                <img src="assets/hijab.png" alt="hijab" class="hi">
+                            </div>
+
+                            <div class="leText">
+                                <h6>PREVIOUS Story</h6>
+                                <h5>New collection launches — a <br> collaboration between two <br> great designers</h5>
+                            </div>
+                        </div>
+
+
+                        <div class="comment">
+                            <h4>12 comments +</h4>
+                        </div>
+
+
+                        <div class="smailCard">
+                            <div class="le">
+                                <img src="assets/Image (2).png" alt="hijab" class="hi">
+                            </div>
+                            <div class="leText">
+                                <h6>NEXT Story</h6>
+                                <h5>New collection launches — a <br> collaboration between two <br> great designers</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr class="hrr">
+
+                </section>
+            </div>
+
+
+            <section class="sec4">
+                <div class="container">
+                    <!-- title -->
+                    <h1 class="text-center">Related stories</h1>
+                    <!-- card layout -->
+                    <div class="card-layout">
+                        <!-- card 1 -->
+                        <div class="card">
+                            <img class="card-img" src="/assets/Image.png" alt="Card image">
+                            <!-- card body -->
+                            <div class="card-body">
+                                <h4 class="card-title">New silhouettes for a new decade</h4>
+                                <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
+                                    vero
+                                    eos
+                                    et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
+                                <div class="alignunder">
+                                    <p class="lay">Posted under</p>
+                                    <a href="index.html" class="trends">TRENDS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 2 -->
+                        <div class="card">
+                            <img class="card-img" src="/assets/image 29.png" alt="Card image">
+                            <!-- card body -->
+                            <div class="card-body">
+                                <h4 class="card-title">New silhouettes for a new decade</h4>
+                                <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
+                                    vero
+                                    eos
+                                    et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
+                                <div class="alignunder">
+                                    <p class="lay">Posted under</p>
+                                    <a href="index.html" class="trends">TRENDS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 3 -->
+                        <div class="card">
+                            <img class="card-img" src="/assets/3.png" alt="Card image">
+                            <!-- card body -->
+                            <div class="card-body">
+                                <h4 class="card-title">New silhouettes for a new decade</h4>
+                                <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
+                                    vero
+                                    eos
+                                    et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
+                                <div class="alignunder">
+                                    <p class="lay">Posted under</p>
+                                    <a href="index.html" class="trends">TRENDS</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- card 4 -->
+                        <div class="card">
+                            <img class="card-img" src="/assets/2.png" alt="Card image">
+                            <!-- card body -->
+                            <div class="card-body">
+                                <h4 class="card-title">New silhouettes for a new decade</h4>
+                                <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
+                                    vero
+                                    eos
+                                    et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
+                                <div class="alignunder">
+                                    <p class="lay">Posted under</p>
+                                    <a href="index.html" class="trends">TRENDS</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-        
-            
+
+            <section>
+                <form action="index.html">
+                    <!-- Grid row -->
+                    <div class="footer Smo">
+                        <!-- Grid column for smile and text -->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <img src="assets/smile.svg" alt="smile" class="smilee"> We also make emails
+                            </p>
+                            <p class="text12">Receive updates and offers you’ll actually be interested in.Unsubscribe
+                                any time.
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <!-- Email input -->
+                            <div class="form-outline">
+                                <input type="email" id="form5Example2" class="form-control" placeholder="Your email" />
+                                <img src="assets/arrow.svg" alt="arrow" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </section>
         </div>
-
-
-        <!-- ImgSee -->
-        <Div class="imgSect">
-            <h6>
-                Related ARTICLES
-            </h6>
-            <img src="assets/seee.png" alt="imgSee" class="imgSee">
-            <div class="texX">
-                <p>SEBASTIAN</p> <img src="assets/X.svg" alt="X">
-                <p>TAKAGAWA</p>
-            </div>
-            <div>
-                <h5>New collection launches — a <br>collaboration between two <br>great designers</h5>
-            </div>
-            
-        </Div>
-    </section>
-
-
-
-
-
-
-
-    <section class="section3">
-        <div class="sec3">
-            <div class="smailCard">
-
-                <div class="le">
-                    <img src="assets/hijab.png" alt="hijab" class="hi">
-                </div>
-
-                <div class="leText">
-                    <h6>PREVIOUS Story</h6>
-                    <h5>New collection launches — a <br> collaboration between two <br> great designers</h5>
-                </div>
-            </div>
-            <div class="comment">
-                <h4>12 comments +</h4>
-            </div>
-            <div class="smailCard">
-                <div class="le">
-                    <img src="assets/Image (2).png" alt="hijab" class="hi">
-                </div>
-                <div class="leText">
-                    <h6>NEXT Story</h6>
-                    <h5>New collection launches — a <br> collaboration between two <br> great designers</h5>
-                </div>
-            </div>
-
-        </div>
-        <hr class="hrr">
-    </section>
-
-
-    <section class="sec4">
-        <div class="container">
-            <!-- title -->
-            <h1 class="text-center">Related stories</h1>
-            <!-- card layout -->
-            <div class="card-layout">
-                <!-- card 1 -->
-                <div class="card">
-                    <img class="card-img" src="/assets/Image.png" alt="Card image">
-                    <!-- card body -->
-                    <div class="card-body">
-                        <h4 class="card-title">New silhouettes for a new decade</h4>
-                        <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
-                            vero
-                            eos
-                            et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
-                        <div class="alignunder">
-                            <p class="lay">Posted under</p>
-                            <a href="index.html" class="trends">TRENDS</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card 2 -->
-                <div class="card">
-                    <img class="card-img" src="/assets/image 29.png" alt="Card image">
-                    <!-- card body -->
-                    <div class="card-body">
-                        <h4 class="card-title">New silhouettes for a new decade</h4>
-                        <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
-                            vero
-                            eos
-                            et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
-                        <div class="alignunder">
-                            <p class="lay">Posted under</p>
-                            <a href="index.html" class="trends">TRENDS</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card 3 -->
-                <div class="card">
-                    <img class="card-img" src="/assets/3.png" alt="Card image">
-                    <!-- card body -->
-                    <div class="card-body">
-                        <h4 class="card-title">New silhouettes for a new decade</h4>
-                        <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
-                            vero
-                            eos
-                            et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
-                        <div class="alignunder">
-                            <p class="lay">Posted under</p>
-                            <a href="index.html" class="trends">TRENDS</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- card 4 -->
-                <div class="card">
-                    <img class="card-img" src="/assets/2.png" alt="Card image">
-                    <!-- card body -->
-                    <div class="card-body">
-                        <h4 class="card-title">New silhouettes for a new decade</h4>
-                        <p class="card-text">Across fashion, we see different shapes<br> appear across eras. At
-                            vero
-                            eos
-                            et <br>accusamus et iusto odio dignissimos <br> ducimus qui blanditiis.</p>
-                        <div class="alignunder">
-                            <p class="lay">Posted under</p>
-                            <a href="index.html" class="trends">TRENDS</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <form action="index.html">
-            <!-- Grid row -->
-            <div class="footer Smo">
-                <!-- Grid column for smile and text -->
-                <div class="col-auto">
-                    <p class="pt-2">
-                        <img src="assets/smile.svg" alt="smile" class="smilee"> We also make emails
-                    </p>
-                    <p class="text12">Receive updates and offers you’ll actually be interested in.Unsubscribe any time.
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <!-- Email input -->
-                    <div class="form-outline">
-                        <input type="email" id="form5Example2" class="form-control" placeholder="Your email" />
-                        <img src="assets/arrow.svg" alt="arrow" class="arrow">
-                    </div>
-                </div>
-            </div>
-        </form>
-    </section>
-
-
-
-
-
-
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -441,7 +696,15 @@
                         Masterclass lesson. </a>
                 </div>
             </div>
+
+
+        </div>
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
