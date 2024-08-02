@@ -979,7 +979,9 @@ a {
     body {
         font-size: 14px;
     }
-
+.navbar-brand {
+    align-items: start;
+}
     /* 
     .navbar {
         flex-direction: column;
