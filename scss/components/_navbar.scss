@@ -1,0 +1,59 @@
+// Main Navigation Component
+.main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    transition: all 0.3s ease;
+    padding: $spacing-unit 0;
+
+    &__brand {
+        img {
+            width: 60px;
+            height: auto;
+        }
+    }
+
+    &__menu {
+        @media (max-width: $breakpoint-lg) {
+            background-color: rgba($background-color, 0.95);
+            padding: $spacing-unit;
+            border-radius: 4px;
+            margin-top: $spacing-unit;
+        }
+    }
+
+    &__link {
+        color: $text-color;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s ease;
+
+        &:hover, &.active {
+            color: $primary-color;
+        }
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        gap: $spacing-unit;
+
+        img {
+            width: 24px;
+            height: 24px;
+            transition: opacity 0.3s ease;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    // Scrolled state
+    &.scrolled {
+        background-color: rgba($background-color, 0.95);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+}

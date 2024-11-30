@@ -1,0 +1,72 @@
+// Home Page Styles
+.home {
+    &-header {
+        position: relative;
+        min-height: 100vh;
+        
+        .navbar {
+            background-color: transparent;
+            transition: background-color 0.3s ease;
+            
+            &.scrolled {
+                background-color: rgba($background-color, 0.95);
+            }
+        }
+    }
+
+    &-nav {
+        &__logo {
+            max-width: 60px;
+            height: auto;
+        }
+
+        &__menu {
+            @media (max-width: $breakpoint-lg) {
+                margin-top: 1rem;
+            }
+        }
+
+        &__link {
+            color: $text-color;
+            transition: color 0.3s ease;
+            
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    &-icons {
+        display: flex;
+        align-items: center;
+        gap: $spacing-unit;
+
+        img {
+            width: 24px;
+            height: 24px;
+            transition: opacity 0.3s ease;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+
+    &-title {
+        font-family: $font-family-base;
+        margin-bottom: $spacing-unit * 3;
+    }
+
+    &-cards {
+        display: grid;
+        gap: $spacing-unit * 2;
+        
+        @media (min-width: $breakpoint-md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        @media (min-width: $breakpoint-lg) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
